@@ -22,7 +22,8 @@ app.
 
 SIM Number Setter does NOT:
 - Change your actual phone number, no matter what you enter.
-- Unblock a network blocked SIM.\n- Give you free data or calls.
+- Unblock a network blocked SIM.
+- Give you free data or calls.
 - Change your IMEI.
   
 SIM Number Setter uses the built-in Android methods to write data to the SIM. 
