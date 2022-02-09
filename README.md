@@ -21,7 +21,7 @@ app, even switching the SIM to a different device, but can be changed again at a
 app. 
 
 SIM Number Setter does NOT:
-- Change your actual phone number, no matter what you enter.
+- Change your actual phone number, no matter what you enter. You must contact your carrier if you wish to port your number or switch network.
 - Unblock a network blocked SIM.
 - Give you free data or calls.
 - Change your IMEI.
