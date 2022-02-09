@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="@dimen/margin_16"
+    style="@style/Widget.Material3.CardView.Filled">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/margin_16">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/main_loaded_card_edit_title"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large.SNS"
+            android:textColor="?android:textColorPrimary" />
+
+        <TextView
+            android:id="@+id/main_loaded_card_edit_current"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_8"
+            android:text="@string/main_loaded_card_edit_content"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small.SNS"
+            android:textColor="?android:textColorPrimary" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/main_loaded_card_edit_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_16"
+            android:hint="@string/main_loaded_card_edit_input_hint"
+            app:counterMaxLength="20"
+            app:counterEnabled="true"
+            app:counterTextAppearance="@style/TextAppearance.AppCompat.Small.SNS"
+            app:boxCornerRadiusBottomEnd="@dimen/margin_16"
+            app:boxCornerRadiusBottomStart="@dimen/margin_16"
+            app:boxCornerRadiusTopEnd="@dimen/margin_16"
+            app:boxCornerRadiusTopStart="@dimen/margin_16">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/main_loaded_card_edit_edit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/google_sans_text_medium"
+                android:digits="0123456789+"
+                android:maxLength="20"
+                android:inputType="number|phone" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/main_loaded_card_edit_input_save"
+            style="@style/ThemeOverlay.Material3.Button.TextButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_16"
+            android:text="@string/main_loaded_card_edit_input_save" />
+
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>

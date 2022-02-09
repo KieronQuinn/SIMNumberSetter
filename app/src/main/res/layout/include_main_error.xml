@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/margin_16"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/ic_error" />
+
+    <TextView
+        android:id="@+id/main_error_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_8"
+        android:gravity="center"
+        android:text="@string/main_error_title"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium.SNS"
+        android:textColor="?android:textColorPrimary" />
+
+    <TextView
+        android:id="@+id/main_error_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_8"
+        android:gravity="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small.SNS"
+        android:textColor="?android:textColorPrimary"
+        tools:text="Error Content" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/main_error_close"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_16"
+        android:text="@string/main_error_close"/>
+
+</LinearLayout>

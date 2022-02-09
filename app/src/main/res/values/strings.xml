@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">SIM Number Setter</string>
+    <string name="xposed_desc">Hooks to enable setting the SIM phone number</string>
+    <string name="main_error_title">Error</string>
+    <string name="main_error_close">Close</string>
+    <string name="main_loaded_card_info_title">About</string>
+    <string name="main_loaded_card_info_content">SIM Number Setter writes a given phone number to your SIM card\'s \"subscriber number\" memory. This is the number Android reads and uses in a few places throughout the system, including Settings and Messages. It is also provided to some third party apps, if they have sufficient permissions.\n\n<b>Changing the SIM number is semi-permanent: the number change will survive reboots, uninstalling this app, even switching the SIM to a different device, but can be changed again at any time using this app.</b>\n\nSIM Number Setter does NOT:\n- Change your actual phone number, no matter what you enter.\n- Unblock a network blocked SIM.\n- Give you free data or calls.\n- Change your IMEI.\n\n<b>SIM Number Setter uses the built-in Android methods to write data to the SIM. The app nor the developer are not responsible for issues with the process, including any damage to the SIM or network issues.</b></string>
+    <string name="main_loaded_card_edit_title">Edit</string>
+    <string name="main_loaded_card_edit_content">Current Number: %1s</string>
+    <string name="main_loaded_card_edit_number_empty">Unknown</string>
+    <string name="main_loaded_card_edit_input_hint">Enter Number</string>
+    <string name="main_loaded_card_edit_input_save">Save</string>
+
+    <string name="loading_loading">Loading…</string>
+    <string name="loading_saving">Saving…</string>
+
+    <string name="error_no_root">Your device is not rooted, or root was denied. Root is required for this app to work.</string>
+    <string name="error_no_permission">Failed to grant permissions using root, please restart the app and try again.</string>
+    <string name="error_no_xposed">Failed to connect to the Xposed service, make sure the module is enabled and you have rebooted.</string>
+    <string name="error_save_failed">Failed to save number, your device does not support this feature, sorry.</string>
+    <string name="menu_github">GitHub</string>
+    <string name="menu_donate">Donate</string>
+</resources>

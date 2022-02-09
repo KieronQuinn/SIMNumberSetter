@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="@string/menu_github"
+        android:id="@+id/menu_github"/>
+    <item android:title="@string/menu_donate"
+        android:id="@+id/menu_donate"/>
+</menu>
