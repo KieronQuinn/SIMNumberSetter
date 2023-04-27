@@ -4,7 +4,7 @@ plugins {
 }
 
 android {
-    compileSdk 32
+    compileSdk 33
 
     defaultConfig {
         applicationId "com.kieronquinn.app.simnumbersetter"
@@ -12,7 +12,7 @@ android {
         targetSdk 32
         versionCode 1
         versionName "1.0"
-
+        resourceConfigurations += ["en", "zh_CN"]
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
 
