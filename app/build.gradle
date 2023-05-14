@@ -12,7 +12,7 @@ android {
         targetSdk 32
         versionCode 1
         versionName "1.0"
-        resourceConfigurations += ["en", "zh_CN"]
+
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
 
