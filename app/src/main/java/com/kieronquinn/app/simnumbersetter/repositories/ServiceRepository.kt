@@ -74,7 +74,7 @@ class ServiceRepositoryImpl(private val context: Context): ServiceRepository {
                 override fun onServiceConnected(component: ComponentName, binder: IBinder) {
                     serviceInstance = IPhoneNumberSetter.Stub.asInterface(binder)
                     binder.pingBinder()
-                    serviceConnection = this
+                    this@ServiceRepositoryImpl.serviceConnection = this
                     resume.resume(serviceInstance!!)
                     getServiceMutex.unlock()
                 }
